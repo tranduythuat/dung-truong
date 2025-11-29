@@ -215,6 +215,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'PinyonScript';
+  src: url('../thiep/fonts/PinyonScript-Regular.woff2') format('woff2'),
+      url('../thiep/fonts/PinyonScript-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root{
   --primary-color: rgb(121, 45, 38);
   --empty-box: rgb(76, 53, 44);
@@ -223,9 +231,8 @@
   --font-gotham-book: 'SVN-Gotham Book';
   --font-mtd: 'MTD Doppelganger Display';
   --font-aston: 'Aston Script';
+  --font-pinyonScript: 'PinyonScript';
 }
-
-
 
 [data-aos] {
   will-change: opacity, transform;
@@ -309,9 +316,10 @@ body{
 
 .box-content .wife,
 .box-content .husband {
-  font-family: var(--font-aston);
+  /* font-family: var(--font-aston); */
+  font-family: var(--font-pinyonScript);
   font-weight: 400;
-  font-size: 25px;
+  font-size: 42px;
 }
 
 .dot{
@@ -400,9 +408,9 @@ hr{
 }
 
 .lb6{
-  font-family: var(--font-aston);
+  font-family: var(--font-pinyonScript);
   font-weight: 500;
-  font-size: 25px;
+  font-size: 42px;
 }
 
 .church{
