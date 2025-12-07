@@ -272,7 +272,6 @@ body{
 }
 
 .box-save {
-  background-color: var(--empty-box);
   width: 100%;
   aspect-ratio: 500 / 900;
   background-image: url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/truong-dung/Copy of SBT_2683.webp');
@@ -376,7 +375,6 @@ hr{
 }
 
 .box-icon{
-  background-color: var(--empty-box);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -801,12 +799,11 @@ hr{
 
 
 .box-title{
-  background-color: var(--empty-box);
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  background-image: url('');
+  background-image: url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/truong-dung/couple-blur.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
