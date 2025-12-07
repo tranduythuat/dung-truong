@@ -37,4 +37,8 @@
     .lb-timeline {
         font-size: calc((45 / 500) * 100vw);
     }
+
+    .box-timeline .events .event p {
+        font-size: calc((11.2 / 500) * 100vw);
+    }
 }

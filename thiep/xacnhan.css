@@ -525,12 +525,12 @@ hr{
 }
 
 .box-timeline .events .event p {
-  min-height: 30px;
-  font-size: 0.8rem;
+  min-height: 62px;
+  height: 62px;
+  font-size: 0.7rem;
   font-weight: normal;
   text-transform: uppercase;
   font-family: var(--font-gotham-book);
-  height: 52px;
 }
 
 .box-timeline .events .event .icon {
@@ -1250,7 +1250,7 @@ textarea{
     }
   }
   
-  @media(max-width: 992px) {
+  /* @media(max-width: 992px) {
     html { font-size: 14px; }
     .modal-content { width: 80%; }
   }
@@ -1258,7 +1258,7 @@ textarea{
     html { font-size: 12px; }
     .modal-content { padding: 2rem 1rem 1rem 1rem; width: 90%; }
     .modal-content h1 { margin-bottom: 1.5rem; }
-  }
+  } */
   
   
   
@@ -1462,7 +1462,39 @@ textarea{
   opacity: 1;
 }
 
-  
+  /* Loading screen container */
+.loading-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/* Spinner animation */
+.spinner {
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  border-top: 6px solid #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+/* Spinner animation keyframes */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 /* ================================ */
 /* 
